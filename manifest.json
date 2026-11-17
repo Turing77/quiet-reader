@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "纯净阅读",
+  "version": "1.0.0",
+  "description": "一键在新标签页阅读网页正文，也支持选中文字阅读。",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "action": {
+    "default_title": "打开纯净阅读"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
